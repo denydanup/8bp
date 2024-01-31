@@ -3,12 +3,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
 
 //---- Definisi
-// 4578335228 -> M45den
-// 4578349379 -> Ty
-// 4578354046 -> Moonton
-// 4572118996 -> wdppay
-// 4578369679 -> viaicha69
-let Unique = '4578369679';
+let Unique = 'UNIQUE-ID';
 let InputForm = '.p-1 > .form-user-id > :nth-child(2) > :nth-child(1) > .user-id-input';
 let ButtonFree = ':nth-child(2) > .mt-5 > .single-item-grid > .h-full > .face-desktop > .mt-4 > .m-button'
 let Claim = '.p-1 > .form-user-id > :nth-child(2) > .action-btn > .m-button'
